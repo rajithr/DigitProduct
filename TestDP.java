@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class TestDP {
+public class TestDP extend TestCase {
 	int input[][] = {
 						{1,2,3,0},
 						{1,3,3,1},
