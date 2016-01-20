@@ -1,8 +1,8 @@
 import static org.junit.Assert.*;
-
+import junit.framework.TestCase;
 import org.junit.Test;
 
-public class TestDP extend TestCase {
+public class TestDP extends TestCase {
 	int input[][] = {
 						{1,2,3,0},
 						{1,3,3,1},
