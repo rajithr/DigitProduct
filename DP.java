@@ -38,7 +38,14 @@ public class DP {
 	
 	public int getCombos(int start, int end, int dp)
 	{
-		return 0;
+		int num = 0;
+		for(int n=start;n<=end;n++)
+		{
+			Integer i = new Integer(n);
+			if((int)m_dp.getDP(i.toString()) == dp)
+				num++;
+		}
+		return num;
 	}
 	
 	public interface DigitP
