@@ -28,4 +28,9 @@ public class DP {
 		
 		return num;
 	}
+	
+	public interface DigitP
+	{
+		public static double getDP(String number);
+	}
 }
