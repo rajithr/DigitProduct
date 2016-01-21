@@ -29,6 +29,18 @@ public class DP {
 		return num;
 	}
 	
+	DigitP m_dp;
+	
+	DP(DigitP dp)
+	{
+		m_dp = dp;
+	}
+	
+	public int getCombos(int start, int end, int dp)
+	{
+		return 0;
+	}
+	
 	public interface DigitP
 	{
 		public double getDP(String number);
