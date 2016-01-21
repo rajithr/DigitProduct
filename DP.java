@@ -31,6 +31,6 @@ public class DP {
 	
 	public interface DigitP
 	{
-		public static double getDP(String number);
+		public double getDP(String number);
 	}
 }
