@@ -37,11 +37,13 @@ public class TestDP extends TestCase {
 	public void test() {
 		int n = 0;
 		
+		DP dp = new DP(new DigitProduct());
+		
 		while(true)
 		{
 			if(input[n][1] != 0)
 			{
-				int res = DP.numCombos(input[n][0], input[n][1], input[n][2]); 
+				int res = dp.getCombos(input[n][0], input[n][1], input[n][2]); 
 				if(res != input[n][3])
 					fail(input[n][0]+" "+input[n][1]+" "+input[n][2]+"="+res+"!="+input[n][3]);
 				n++;
